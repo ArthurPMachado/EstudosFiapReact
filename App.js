@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, StatusBar } from 'react-native';
 // Import components
 import PrimeiroComponente from './src/components/PrimeiroComponente';
 import ParOuImpar from './src/components/ParOuImpar';
+import Contador from './src/components/Contador';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Text>Hello World</Text>
       <PrimeiroComponente />
       <ParOuImpar numero={4}/>
+      <Contador />
     </View>
   );
 }
